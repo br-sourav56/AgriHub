@@ -1,14 +1,14 @@
 import React from 'react'
-import Hero from '../../components/Hero/Hero'
-import Products from '../../components/Products.jsx/Products'
-import Offer from '../../components/Offers/Offer'
+import Hero from '../../Components/Hero/Hero'
+import Products from '../../Components/Products.jsx/products'
+import Offer from '../../Components/Offers/Offer'
 
 export default function Home() {
     return (
         <>
             <Hero />
             <Offer />
-            <Products />
+            <Products/>
         </>
     )
 }

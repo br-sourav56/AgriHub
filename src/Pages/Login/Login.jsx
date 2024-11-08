@@ -1,11 +1,11 @@
 import React, { useContext, useState } from 'react'
-import Input from '../../components/SmallComponents/Input'
-import InputButton from '../../components/SmallComponents/Button'
+import Input from '../../Components/SmallComponents/Input'
+import InputButton from '../../Components/SmallComponents/Button'
 import { Link, redirect, useNavigate } from 'react-router-dom'
 import { signInWithEmailAndPassword } from 'firebase/auth'
 import { auth } from '../../Firebase/Firebase'
-import { ShopContext } from '../../components/Context/Context'
-import RedAlert from '../../components/Alert/RedAlert'
+import { ShopContext } from '../../Components/Context/Context'
+import RedAlert from '../../Components/Alert/RedAlert'
 import toast from 'react-hot-toast';
 
 

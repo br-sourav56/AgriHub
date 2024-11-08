@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
-import Products from '../../components/Products.jsx/Products'
+import Products from '../../Components/Products/Products.jsx'
 import { useParams } from 'react-router-dom'
-import { ShopContext } from '../../components/Context/Context'
-import { BreadcrumbSec } from '../../components/BreadCrumb/BreadCrumb'
+import { ShopContext } from '../../Components/Context/Context'
+import { BreadcrumbSec } from '../../Components/BreadCrumb/BreadCrumb'
 import toast from 'react-hot-toast';
 
 export default function ProductDetails() {

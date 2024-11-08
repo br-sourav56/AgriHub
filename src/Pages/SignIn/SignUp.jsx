@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import Input from '../../components/SmallComponents/Input'
-import InputButton from '../../components/SmallComponents/Button'
+import Input from '../../Components/SmallComponents/Input'
+import InputButton from '../../Components/SmallComponents/Button'
 import { Link } from 'react-router-dom'
 import { auth, db } from '../../Firebase/Firebase'
 import { createUserWithEmailAndPassword } from 'firebase/auth'
 import { doc, setDoc } from 'firebase/firestore'
-import RedAlert from '../../components/Alert/RedAlert'
+import RedAlert from '../../Components/Alert/RedAlert.jsx'
 
 
 
