@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import Products from '../../Components/Products/Products.jsx'
+import Products from '../../Components/Products.jsx/Products.jsx'
 import { useParams } from 'react-router-dom'
 import { ShopContext } from '../../Components/Context/Context'
 import { BreadcrumbSec } from '../../Components/BreadCrumb/BreadCrumb'
