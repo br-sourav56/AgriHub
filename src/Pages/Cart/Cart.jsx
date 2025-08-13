@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
-import InputButton from '../../components/SmallComponents/Button'
-import { ShopContext } from '../../components/Context/Context'
+import InputButton from '../../Components/SmallComponents/Button'
+import { ShopContext } from '../../Components/Context/Context'
 import toast from 'react-hot-toast';
 
 export default function Cart() {
