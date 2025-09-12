@@ -2,7 +2,7 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
-// Your web app's Firebase configuration
+// web app's Firebase configuration
 const firebaseConfig = {
 apiKey: "AIzaSyDBP8kjMY96ZWwhRM24LyDemyJxppetkX8",
   authDomain: "agrihub-54e1f.firebaseapp.com",

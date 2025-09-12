@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import React, { createContext } from "react";
 import { collection, getDocs, query } from "firebase/firestore";
-import { auth, db } from "../../Firebase/Firebase.js";
+import { auth, db } from "../../Firebase/Firebase";
 import { onAuthStateChanged, signInWithEmailAndPassword, signOut } from "firebase/auth";
 
 

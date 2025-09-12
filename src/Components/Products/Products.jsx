@@ -5,7 +5,7 @@ import { collection, getDocs, query } from 'firebase/firestore'
 import { db } from '../../Firebase/Firebase'
 import fetchProductsData from '../fetchData'
 import { ShopContext } from '../Context/Context'
-import ProductDetails from '../../Pages/ProductDetails/ProductDetails';
+import ProductDetails from './../Pages/ProductDetails/ProductDetails';
 
 export default function Products() {
 

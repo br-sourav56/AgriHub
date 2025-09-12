@@ -3,7 +3,7 @@ import Input from '../../Components/SmallComponents/Input'
 import InputButton from '../../Components/SmallComponents/Button'
 import { Link, redirect, useNavigate } from 'react-router-dom'
 import { signInWithEmailAndPassword } from 'firebase/auth'
-import { auth } from '../../Firebase/Firebase.js'
+import { auth } from '../../Firebase/Firebase'
 import { ShopContext } from '../../Components/Context/Context'
 import RedAlert from '../../Components/Alert/RedAlert'
 import toast from 'react-hot-toast';

@@ -14,7 +14,7 @@ import Contact from './Pages/Contact/Contact.jsx'
 import CreateProduct from './Pages/Createproduct.jsx/CreateProduct.jsx'
 import { useEffect, useState } from 'react'
 import { auth } from './Firebase/Firebase'
-import ProductsPage from './Pages/ProductsPage/ProductsPage'
+import ProductsPage from '../Pages/ProductsPage/ProductsPage'
 import ProtectedRoutes from './Pages/ProtectedRoutes'
 import ScrollToTop from './components/ScrollToTop'
 import { Toaster } from 'react-hot-toast';
@@ -65,7 +65,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/products' element={<ProductsPage />} />
         <Route path='/products' >
-          <Route path=':priduct_id' element={<ProductDetails />} />
+        <Route path=':priduct_id' element={<ProductDetails />} />
         </Route>
         <Route path='add_product' element={<ProtectedRoutes><CreateProduct /></ProtectedRoutes>} />
         <Route path='cart' element={<ProtectedRoutes><Cart /></ProtectedRoutes>} />

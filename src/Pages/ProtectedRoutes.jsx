@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { ShopContext } from '../components/Context/Context'
+import { ShopContext } from '../Components/Context/Context.jsx'
 import { Navigate, useNavigate } from 'react-router-dom'
 
 export default function ProtectedRoutes({ children }) {
