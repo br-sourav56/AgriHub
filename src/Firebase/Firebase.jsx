@@ -4,12 +4,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 // web app's Firebase configuration
 const firebaseConfig = {
-apiKey: "AIzaSyDBP8kjMY96ZWwhRM24LyDemyJxppetkX8",
-  authDomain: "agrihub-54e1f.firebaseapp.com",
-  projectId: "agrihub-54e1f",
-  storageBucket: "agrihub-54e1f.firebasestorage.app",
-  messagingSenderId: "557631342206",
-  appId: "1:557631342206:web:8f464eab80a0ea07713a2f"
+apiKey: "AIzaSyANEvvtZemu6ogCki0yWXqv0wbZvOhjAbY",
+  authDomain: "agrihub-f80d9.firebaseapp.com",
+  projectId: "agrihub-f80d9",
+  storageBucket: "agrihub-f80d9.firebasestorage.app",
+  messagingSenderId: "375935727277",
+  appId: "1:375935727277:web:eb6bc8d80be0829a253824",
+  measurementId: "G-YBF2N1Z29R"
 };
 
 // Initialize Firebase

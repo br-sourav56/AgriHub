@@ -11,10 +11,11 @@ import Cart from './Pages/Cart/Cart'
 import NewsLetter from './Pages/Newsletter/NewsLetter'
 import Faq from './Pages/Faq/Faq.jsx'
 import Contact from './Pages/Contact/Contact.jsx'
-import CreateProduct from './Pages/Createproduct.jsx/CreateProduct.jsx'
+import CreateProduct from './Pages/Createproduct/CreateProduct.jsx'
 import { useEffect, useState } from 'react'
 import { auth } from './Firebase/Firebase'
-import ProductsPage from '../Pages/ProductsPage/ProductsPage'
+import ProductsPage from './Pages/Productspage/ProductsPage.jsx';
+
 import ProtectedRoutes from './Pages/ProtectedRoutes'
 import ScrollToTop from './components/ScrollToTop'
 import { Toaster } from 'react-hot-toast';
